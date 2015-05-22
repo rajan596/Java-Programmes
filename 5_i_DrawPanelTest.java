@@ -18,8 +18,8 @@ public class DrawPanelTest {
         DrawPanel panel=new DrawPanel();
         
         JFrame application=new JFrame();
-        application.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        application.add(panel);
+        application.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);   // terminate programme when closed
+        application.add(panel);                                       // attach panel
         application.setSize(250,250);
         application.setVisible(true);
     }
