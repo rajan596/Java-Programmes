@@ -14,8 +14,8 @@ import javax.swing.JPanel;
 
 public class DrawPanel extends JPanel{
     @Override
-    public void paintComponent(Graphics g) {
-        super.paintComponent(g);
+    public void paintComponent(Graphics g) {  // necessary
+        super.paintComponent(g);    // useful while resizing window --> It rendors graphics according to size of window
         
         int width=getWidth();
         int height=getHeight();
