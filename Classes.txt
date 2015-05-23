@@ -1,0 +1,19 @@
+CLASS : Arrays ::
+    :: java.util.Arrays;
+    :: Arrays.sort(a);
+    :: Arrays.fill(a,7);
+    :: Arrays.binarySearch(a,7);     // returns location
+    :: Arrays.equals(a,b);           // returns boolean 
+    
+CLASS : ArrayList ::
+    :: java.util.ArrayList;
+    :: ArrayList<T> a;
+    :: a.add();
+    :: a.remove();
+    :: a.get();
+    :: a.indexOf();
+    :: a.contains();
+    :: a.clear();
+    :: a.size();
+    :: a.isEmpty();
+
