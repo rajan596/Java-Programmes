@@ -16,6 +16,9 @@ public class InheritanceDemo {
             
             
             B b=new B();
+            
+            Person3 pp=new BusinessMan("aaaa",10,100,"yyyyy",1000));
+
         }
 }
 
