@@ -15,4 +15,8 @@
     >> StringBuilder : 
     -> It is not synchronizes so It can't be used in Threads. StringBuffer is better for this.
 
-4. 
+4. int defaultVariable              //  Visible and accesed inside same package 
+   public int publicVariable        //  Visible to all packages
+   private int privateVariable      //  Visible to only class in which it is declared 
+   protected int protectedVariable  //  Visible to same and inherited classes. 
+   
