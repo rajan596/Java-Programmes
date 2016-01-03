@@ -104,7 +104,49 @@
     >> Different classes have their different responsibilities. => cohesion
     >> 3 tasks : Download , parse , store )) Instead doing everything in one class do it in separate classes.
     
+ 15. Inner Class :
+    >> class inside other class/method.
+    >> must try to avoid.
+    >> 2 types : 1) Normal 2) Static
     
+16. Constructor :
+    >> Chaining :
+      class A {
+          int x;
+          A(int x) {
+              this.x=x;
+          }
+      }
+      
+      class B extends A {
+          int y;
+          B(int x,int y) {
+              super(x);         // This is called chaining , there is a chain of constructor
+              this.y=y;
+          }
+      }
+      
+    >> Copy Constructor :
+        To make new instance of same class
+        
+        class student {
+            String name;
+            int marks;
+            
+            Student(String name , int marks) {
+                this.name=name;
+                this.marks=marks;
+            }
+            
+            Student(Student s) {   // copy constructor
+                name=s.name;
+                marks=s.marks;
+            }
+        }
+    
+        So how to use ?
+        Student student=new Student("X",10);
+        Student studentcopy =new Student(student);  
 
 
 
