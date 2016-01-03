@@ -90,3 +90,21 @@
     >> public String toString() {
             return "Animal is " + name;
         }
+
+13. Coupling :
+    >> measure of => How much a class change when other class changes.
+    >> There should be minimum coupling.
+    >> class much don't know about inner items of other classes.
+    >> class design must be like if we change variables and structure of one class then other class must not affect.
+    >> Instead of direct accesing variables try to design method that returns variable. So evenif we change variable name
+       other class won't be affected.
+       
+14. Cohesion :
+    >> measure of how related of the responsibilities of class are.
+    >> Different classes have their different responsibilities. => cohesion
+    >> 3 tasks : Download , parse , store )) Instead doing everything in one class do it in separate classes.
+    
+    
+
+
+
