@@ -148,5 +148,16 @@
         Student student=new Student("X",10);
         Student studentcopy =new Student(student);  
 
+17. Asserts :
+    >> program asserts when condition is false.
+     > assert(money>0);
+    >> assert with log message.
+     > assert(money>0):"Error mesage";
+     
+18. Collection :
+    
 
+    
+    
+    
 
