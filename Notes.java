@@ -14,6 +14,11 @@
 
     >> StringBuilder : 
     -> It is not synchronizes so It can't be used in Threads. StringBuffer is better for this.
+    
+    Conclusion:
+        >>  Objects of String are immutable, and objects of StringBuffer and StringBuilder are mutable.
+        >>  StringBuffer and StringBuilder are similar, but StringBuilder is faster and preferred over 
+             StringBuffer for single threaded program. If thread safety is needed, then StringBuffer is used.
 
 4. int defaultVariable              //  Visible and accesed to same package 
    public int publicVariable        //  Visible to all packages
